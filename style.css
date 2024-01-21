@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./image.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.container {
+  max-width: 1300px;
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-size: 35px;
+  color: #fff;
+}
+.navbar-menu a {
+  color: #fff;
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  padding: 12px 15px;
+  border-radius: 2px;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.4s;
+}
+.navbar-menu a:hover {
+  background-color: #fff;
+  color: #000;
+}
+.description {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0 70px;
+  width: 100%;
+  text-align: center;
+}
+.description h2 {
+  font-family: 'Great Vibes', sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 2px;
+  line-height: 50px;
+}
+.description h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 70px;
+}
+.description p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 2px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+.description a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 1px solid #fff;
+  padding: 12px 20px;
+  border-radius: 3px;
+  transition: 0.4s;
+}
+.description a:hover {
+  background-color: #fff;
+  color: #000;
+}
